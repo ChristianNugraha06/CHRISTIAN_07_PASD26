@@ -3,7 +3,7 @@ package Minggu1;
 import java.util.Scanner;
 
 public class Tugas2 {
-     static Scanner scanner = new Scanner(System.in);
+     static Scanner Christ = new Scanner(System.in);
 
     static String[][] inputJadwal(int n) {
         String[][] jadwal = new String[n][4];
@@ -11,13 +11,13 @@ public class Tugas2 {
         for (int i = 0; i < n; i++) {
             System.out.println("\nJadwal ke-" + (i + 1) + ":");
             System.out.print("  Nama Mata Kuliah : ");
-            jadwal[i][0] = scanner.nextLine();
+            jadwal[i][0] = Christ.nextLine();
             System.out.print("  Ruang            : ");
-            jadwal[i][1] = scanner.nextLine();
+            jadwal[i][1] = Christ.nextLine();
             System.out.print("  Hari Kuliah      : ");
-            jadwal[i][2] = scanner.nextLine();
+            jadwal[i][2] = Christ.nextLine();
             System.out.print("  Jam Kuliah       : ");
-            jadwal[i][3] = scanner.nextLine();
+            jadwal[i][3] = Christ.nextLine();
         }
         return jadwal;
     }
@@ -80,8 +80,8 @@ public class Tugas2 {
         System.out.println("================================================");
 
         System.out.print("Masukkan jumlah jadwal kuliah: ");
-        int n = scanner.nextInt();
-        scanner.nextLine();
+        int n = Christ.nextInt();
+        Christ.nextLine();
 
         String[][] jadwal = inputJadwal(n);
 
@@ -93,8 +93,8 @@ public class Tugas2 {
             System.out.println("3. Cari jadwal berdasarkan mata kuliah");
             System.out.println("4. Keluar");
             System.out.print("Pilihan: ");
-            pilihan = scanner.nextInt();
-            scanner.nextLine();
+            pilihan = Christ.nextInt();
+            Christ.nextLine();
 
             switch (pilihan) {
                 case 1:
@@ -102,12 +102,12 @@ public class Tugas2 {
                     break;
                 case 2:
                     System.out.print("Masukkan hari: ");
-                    String hari = scanner.nextLine();
+                    String hari = Christ.nextLine();
                     cariByHari(jadwal, hari);
                     break;
                 case 3:
                     System.out.print("Masukkan nama mata kuliah: ");
-                    String mk = scanner.nextLine();
+                    String mk = Christ.nextLine();
                     cariByMataKuliah(jadwal, mk);
                     break;
                 case 4:
@@ -118,7 +118,7 @@ public class Tugas2 {
             }
         } while (pilihan != 4);
 
-        scanner.close();
+       
     }
 }
 
