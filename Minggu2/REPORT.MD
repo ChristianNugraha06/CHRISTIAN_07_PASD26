@@ -23,4 +23,7 @@ Kode terdapat pada Mahasiswa07.java dan berikut adalah SS hasil programnya
 1. Dua karakteristik class dan objek adalah memiliki atribut dan method 
 2. Memiliki 4 atribut, yaitu nama,nim,ipk,dan kelas.
 3. Terdapat 4 method yaitu void tampilkan informasi, void ubah Kelas, Void update IPK, dan string nilai kinerja.
-4. Method nilai kerja bekerja dengan menerima 
+
+4. ![Screenshot](gambar/EditPercobaan1.png)
+
+5. Method nilai kerja bekerja dengan memeriksa nilai variabel IPK secara bertahap menggunakan struktur kondisional if-else if-else Method ini akan mengevaluasi kondisi dari atas ke bawah, dan begitu satu kondisi terpenuhi, maka langsung mengembalikan nilai string tertentu tanpa memeriksa kondisi berikutnya.
