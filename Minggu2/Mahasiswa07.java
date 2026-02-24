@@ -39,7 +39,19 @@ public class Mahasiswa07 {
         
 
     }
-   
+   public Mahasiswa07 (){
+
+   }
+
+   public Mahasiswa07(String nm, String nim, double ipk, String kls){
+    nama = nm;
+    NIM = nim;
+    IPK = ipk;
+    kelas = kls;
+
+    
+
+   }
         
     
 
