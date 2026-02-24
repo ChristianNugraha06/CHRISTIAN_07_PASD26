@@ -49,7 +49,7 @@ public class Mahasiswa07 {
     IPK = ipk;
     kelas = kls;
 
-    
+
 
    }
         
