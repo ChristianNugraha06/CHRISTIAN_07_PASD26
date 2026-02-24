@@ -71,4 +71,10 @@ public Mahasiswa07(String nm, String nim, double ipk, String kls){
 3. Program akan eror dikarenakan konstruktor default dibutuhkan oleh objek mhs1
 4. Tidak, karena programmer dapat bebas memanggil method mana yang ia perlukan untuk programnya. Namun ketika method saling berhubungan dan ketergantungan, maka urutan pemanggilan perlu di perhatikan.
 
-5. 
+5. ![Screenshot](gambar/SSPercobaan3No5.png)
+
+## 4. Tugas 1
+
+
+
+
