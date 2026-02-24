@@ -47,3 +47,28 @@ Kode terdapat pada MahasiswaMain07.java dan berikut adalah SS hasil programnya
 3. Karena terdapat method ubah kelas dan ubah IPK yang membuat hasil method tampilkan informasi satu dan dua berbeda
 
 ## 3.3.3 Membuat Konstruktor
+
+Kode terdapat pada MahasiswaMain07.java dan Mahasiswa07.java dan berikut adalah SS hasil programnya
+
+![Screenshot](gambar/SSHasilPercobaan3.png)
+
+**Penjelasan:** Beberapa langkah yang harus dilakukan
+1. Membuat dua konstraktor pada file Mahasiswa07.java yang satu berparameter yang satu tidak
+2. Membuat objek baru dengan parameter pada file MahasiswaMain07.java 
+3. Mengisi parameter di objek dua 
+4. Menampilkan hasilnya
+
+**Jawaban Pertanyaan:**
+
+1. Pada bagian baris 46-54  
+public Mahasiswa07(String nm, String nim, double ipk, String kls){
+    nama = nm;
+    NIM = nim;
+    IPK = ipk;
+    kelas = kls;
+   }
+2. Membuat objek 2 bernama mhs2 serta melakukan pengisian pada parameter
+3. Program akan eror dikarenakan konstruktor default dibutuhkan oleh objek mhs1
+4. Tidak, karena programmer dapat bebas memanggil method mana yang ia perlukan untuk programnya. Namun ketika method saling berhubungan dan ketergantungan, maka urutan pemanggilan perlu di perhatikan.
+
+5. 
