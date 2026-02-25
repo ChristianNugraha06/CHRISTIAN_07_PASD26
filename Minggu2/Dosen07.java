@@ -35,11 +35,12 @@ public void ubahKeahlian(String bidang) {
 public Dosen07(){
 
 }
-public Dosen07(String iddosen, String nm, boolean stsAtf, String bk){
+public Dosen07(String iddosen, String nm, boolean stsAtf, String bk, int tB){
     idDosen=iddosen;
     nama=nm;
     statusAktif=stsAtf;
     bidangKeahlian=bk;
+    tahunBergabung=tB;
 }
 
     
