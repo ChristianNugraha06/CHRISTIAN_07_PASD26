@@ -73,8 +73,16 @@ public Mahasiswa07(String nm, String nim, double ipk, String kls){
 
 5. ![Screenshot](gambar/SSPercobaan3No5.png)
 
-## 4. Tugas 1
+## 4. Tugas 1 Mata kuliah
 
+Kode terdapat pada MatakuliahMain07.java dan Matakuliah07.java dan berikut adalah SS hasil programnya
 
+![Screenshot](gambar/SSHasilTugas1.png)
 
+**Penjelasan:** Beberapa langkah yang harus dilakukan
+1. Membuat file Matakuliah dan MatakuliahMain
+2. Membuat Class, atribut, method, dan konstruktor di file Matakuliah
+3.Membuat dan menampilkan objek di file MatakuliahMain
+
+## 5. Tugas 2 Dosen
 
