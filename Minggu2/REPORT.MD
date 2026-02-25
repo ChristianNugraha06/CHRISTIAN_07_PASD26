@@ -11,7 +11,7 @@
 
 Kode terdapat pada Mahasiswa07.java dan berikut adalah SS hasil programnya
 
-![Screenshot](gambar/Percobaan1.png)
+![Screenshot](gambar/SSPraktikum1.png)
 
 **Penjelasan:** Beberapa langkah yang harus dilakukan
 1. Membuat class Mahasiswa07 
