@@ -11,7 +11,7 @@
 
 Kode terdapat pada Mahasiswa07.java dan berikut adalah SS hasil programnya
 
-![Screenshot](gambar/Percobaan1.png)
+![Screenshot](gambar/SSPraktikum1.png)
 
 **Penjelasan:** Beberapa langkah yang harus dilakukan
 1. Membuat class Mahasiswa07 
@@ -86,3 +86,11 @@ Kode terdapat pada MatakuliahMain07.java dan Matakuliah07.java dan berikut adala
 
 ## 5. Tugas 2 Dosen
 
+Kode terdapat pada Dosen07.java dan DosenMain07.java dan berikut adalah SS hasil programnya
+
+![Screenshot](gambar/SShasilTugas2.png)
+
+**Penjelasan:** Beberapa langkah yang harus dilakukan
+1. Membuat file dosen dan DosenMain
+2. Membuat Class, atribut, method, dan konstruktor di file Dosen 
+3.Membuat dan menampilkan objek di file DosenMain
