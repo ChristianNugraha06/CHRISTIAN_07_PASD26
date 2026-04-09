@@ -43,6 +43,7 @@ public Dosen07(String iddosen, String nm, boolean stsAtf, String bk, int tB){
     tahunBergabung=tB;
 }
 
+
     
 
 }
