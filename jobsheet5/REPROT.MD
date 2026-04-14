@@ -198,6 +198,117 @@ mencari indeks mahasiswa dengan IPK terkecil dari sisa array yang belum terurut.
         }
     } ```
 
+# Latihan Praktikum
+
+Hasil
+
+``` ======== MENU DATA DOSEN ========
+1. Tambah Data Dosen
+2. Tampil Data Dosen
+3. Sorting ASC  (Bubble Sort    - Termuda ke Tertua)
+4. Sorting DSC  (Selection Sort - Tertua ke Termuda)
+5. Sorting ASC  (Insertion Sort - Termuda ke Tertua)
+0. Keluar
+Pilih menu: 1
+Masukkan Kode Dosen              : 2123  
+Masukkan Nama Dosen              : Putri
+Jenis Kelamin (1=Laki-laki / 0=Perempuan) : 0
+Masukkan Usia Dosen              : 25
+Data berhasil ditambahkan!
+
+======== MENU DATA DOSEN ========
+1. Tambah Data Dosen
+2. Tampil Data Dosen
+3. Sorting ASC  (Bubble Sort    - Termuda ke Tertua)
+4. Sorting DSC  (Selection Sort - Tertua ke Termuda)
+5. Sorting ASC  (Insertion Sort - Termuda ke Tertua)
+0. Keluar
+Pilih menu: 2
+
+===== DATA SELURUH DOSEN =====
+Kode          : 7823
+Nama          : Adi
+Jenis Kelamin : Laki-laki
+Usia          : 35
+------------------------------
+Kode          : 2123
+Nama          : Putri
+Jenis Kelamin : Perempuan
+Usia          : 25
+------------------------------
+
+======== MENU DATA DOSEN ========
+1. Tambah Data Dosen
+2. Tampil Data Dosen
+3. Sorting ASC  (Bubble Sort    - Termuda ke Tertua)
+4. Sorting DSC  (Selection Sort - Tertua ke Termuda)
+5. Sorting ASC  (Insertion Sort - Termuda ke Tertua)
+0. Keluar
+Pilih menu: 3
+
+=== Data Dosen Terurut ASC - Bubble Sort (Termuda ke Tertua) ===
+Kode          : 2123
+Nama          : Putri
+Jenis Kelamin : Perempuan
+Usia          : 25
+------------------------------
+Kode          : 7823
+Nama          : Adi
+Jenis Kelamin : Laki-laki
+Usia          : 35
+------------------------------
+
+======== MENU DATA DOSEN ========
+1. Tambah Data Dosen
+2. Tampil Data Dosen
+3. Sorting ASC  (Bubble Sort    - Termuda ke Tertua)
+4. Sorting DSC  (Selection Sort - Tertua ke Termuda)
+5. Sorting ASC  (Insertion Sort - Termuda ke Tertua)
+0. Keluar
+Pilih menu: 4
+
+=== Data Dosen Terurut DSC - Selection Sort (Tertua ke Termuda) ===
+Kode          : 7823
+Nama          : Adi
+Jenis Kelamin : Laki-laki
+Usia          : 35
+------------------------------
+Kode          : 2123
+Nama          : Putri
+Jenis Kelamin : Perempuan
+Usia          : 25
+------------------------------
+
+======== MENU DATA DOSEN ========
+1. Tambah Data Dosen
+2. Tampil Data Dosen
+3. Sorting ASC  (Bubble Sort    - Termuda ke Tertua)
+4. Sorting DSC  (Selection Sort - Tertua ke Termuda)
+5. Sorting ASC  (Insertion Sort - Termuda ke Tertua)
+0. Keluar
+Pilih menu: 5
+
+=== Data Dosen Terurut ASC - Insertion Sort (Termuda ke Tertua) ===
+Kode          : 2123
+Nama          : Putri
+Jenis Kelamin : Perempuan
+Usia          : 25
+------------------------------
+Kode          : 7823
+Nama          : Adi
+Jenis Kelamin : Laki-laki
+Usia          : 35
+------------------------------
+
+======== MENU DATA DOSEN ========
+1. Tambah Data Dosen
+2. Tampil Data Dosen
+3. Sorting ASC  (Bubble Sort    - Termuda ke Tertua)
+4. Sorting DSC  (Selection Sort - Tertua ke Termuda)
+5. Sorting ASC  (Insertion Sort - Termuda ke Tertua)
+0. Keluar
+Pilih menu: 0
+Program selesai. Sampai jumpa! ```
 
 
 
