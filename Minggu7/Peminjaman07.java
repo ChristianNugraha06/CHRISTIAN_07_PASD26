@@ -8,6 +8,9 @@ public class Peminjaman07 {
     int batasPinjam = 5;
     int terlambat;
     int denda;
+    // jawaban sesi 4 B
+    String isCanceled; 
+
     
    Peminjaman07(Mahasiswa07 mhs, Buku07 buku, int lamaPinjam){
     this.mhs=mhs;
@@ -24,6 +27,16 @@ public class Peminjaman07 {
         terlambat =0;
         denda =0;
     }
+    // jawaban sesi 4 A
+    if (denda > 20000) {
+        denda=20000;
+    }
+   }
+
+
+  //lanjutan jawaban sesi 4 B 
+   void flagging (){
+
    }
    void tampilPeminjaman(){
    System.out.println(mhs.nama + " | " + buku.judul +
@@ -31,4 +44,8 @@ public class Peminjaman07 {
                 " | Terlambat: " + terlambat +
                 " | Denda: " + denda);
    }
+
+ 
+
+   
 }
