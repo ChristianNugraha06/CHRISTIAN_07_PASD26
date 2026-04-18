@@ -7,8 +7,9 @@ public class MahasiswaDemo07 {
     public static void main(String[] args) {
         Scanner Christ = new Scanner(System.in);
         MahasiswaBerprestasi07 list = new MahasiswaBerprestasi07();
+        int jumMhs=5;
        
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= jumMhs; i++) {
             System.out.println("Masukkan Data Mahasiswa ke-" + i);
             System.out.print("NIM   : ");
             String nim = Christ.nextLine();
@@ -25,22 +26,23 @@ public class MahasiswaDemo07 {
             System.out.println("------------------------------");
             
         }
+        list.tampil();
+        //melakukan pencarian data sequential
+        System.out.println("------------------------------");
+        System.out.println("Pencarian data ");
+        System.out.println("------------------------------");
+        System.out.println("Masukkan IPK yang dicari: ");
+        System.out.print("IPK:");
+        double cari = Christ.nextDouble();
 
-        
-        System.out.println("Data mahasiswa sebelum sorting: ");
-        list.tampil();
+            
 
-        System.out.println("Data Mahasiswa setelah sorting berdasarkan IPK (DESC) : ");
-        list.bubbleSort();
-        list.tampil();
-        
-        System.out.println("Data yang sudah terurut menggunakan selection Sort (ASC) : ");
-        list.selectionSort();
-        list.tampil();
+        System.out.println("Menggunakan sequential searching");
+        int posisi = list.sequentialSearching(cari);
+        int pss = (int)posisi;
+        list.tampilPosisi(cari, pss);
+        list.tampilDataSearch(cari, pss);
 
-        System.out.println("Data yang sudah terurut menggunakan INSERTION Sort (ASC) : ");
-        list.insertionSort();
-        list.tampil();
         
 
 
