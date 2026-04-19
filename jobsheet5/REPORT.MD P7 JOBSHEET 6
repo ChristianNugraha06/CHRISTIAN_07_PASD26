@@ -1,0 +1,187 @@
+|  | SEARCHING |
+|--|--|
+| NIM |  254107020089|
+| Nama |  Christian Nugraha Widyawan |
+| Kelas | TI - 1F |
+| Repository | [link] (https://github.com/ChristianNugraha06/CHRISTIAN_07_PASD26/new/main/jobsheet5) |
+
+# Hasil percobaan 1
+
+``` Masukkan Data Mahasiswa ke-1
+NIM   : 111
+Nama  : Adi
+Kelas : 2
+IPK   : 3,6
+------------------------------
+Masukkan Data Mahasiswa ke-2
+NIM   : 222
+Nama  : Tito
+Kelas : 2
+IPK   : 3,8
+------------------------------
+Masukkan Data Mahasiswa ke-3
+NIM   : 333
+Nama  : Ila
+Kelas : 2
+IPK   : 3,0
+------------------------------
+Masukkan Data Mahasiswa ke-4
+NIM   : 444
+Nama  : Lia
+Kelas : 2
+IPK   : 3,5
+------------------------------
+Masukkan Data Mahasiswa ke-5
+NIM   : 555
+Nama  : Fia
+Kelas : 2
+IPK   : 3,3
+------------------------------
+Nama: Adi
+NIM: 111
+Kelas: 2
+IPK: 3.6
+--------------------------------
+Nama: Tito
+NIM: 222
+Kelas: 2
+IPK: 3.8
+--------------------------------
+Nama: Ila
+NIM: 333
+Kelas: 2
+IPK: 3.0
+--------------------------------
+Nama: Lia
+NIM: 444
+Kelas: 2
+IPK: 3.5
+--------------------------------
+Nama: Fia
+NIM: 555
+Kelas: 2
+IPK: 3.3
+--------------------------------
+------------------------------
+Pencarian data
+------------------------------
+Masukkan IPK yang dicari:
+IPK:3,5
+Menggunakan sequential searching
+Data mahasiswa IPK :3.5ditemukan pada indeks 3
+nim      : 444
+nama     : Lia
+kelas    : 2
+ipk      : 3.5 ```
+
+## Pertanyaan Percobaan 1
+1. tampilPosisi  Hanya menampilkan posisi/indeks ditemukannya data. Contoh output: "data mahasiswa dengan IPK: 3.5 ditemukan pada indeks 3"
+tampilDataSearch Menampilkan detail lengkap data mahasiswa (nim, nama, kelas, ipk) yang ditemukan pada posisi tersebut. Jika tidak ditemukan, keduanya sama-sama mencetak pesan "tidak ditemukan".
+
+2. break berfungsi untuk menghentikan loop for secara paksa begitu data yang dicari ditemukan (IPK cocok). 
+Tanpa break, loop akan terus berjalan meski data sudah ketemu, yang menyebabkan pemborosan waktu dan kemungkinan posisi tertimpa nilai lain jika ada data duplikat.
+
+3. Variabel pos berfungsi sebagai penunjuk lokasi array tempat data yang dicari berada. Nilai pos digunakan oleh method tampilPosisi dan tampilDataSearch untuk 
+mengakses elemen listMhs[pos] guna menampilkan informasi mahasiswa yang ditemukan. Jika pos == -1, artinya data tidak ditemukan.
+
+4. Program akan menampilkan data pertama yang ditemukan (indeks terkecil), karena loop berjalan dari j=0 ke atas dan langsung 
+break saat pertama kali menemukan kecocokan. Indeks berikutnya yang mungkin memiliki IPK sama tidak akan diperiksa lagi.
+
+5. Jika break dihapus, loop akan terus berjalan hingga akhir array meskipun data sudah ditemukan. Akibatnya, jika ada data duplikat (IPK sama di lebih dari satu mahasiswa), 
+variabel posisi akan terus ditimpa dengan indeks terakhir yang cocok. Sehingga yang ditampilkan adalah data terakhir yang memiliki IPK sama, bukan yang pertama.
+
+
+#Hasil Percobaan 2
+
+``` Masukkan Data Mahasiswa ke-1
+NIM   : 111
+Nama  : Adi
+Kelas : 2
+IPK   : 3,1
+------------------------------
+Masukkan Data Mahasiswa ke-2
+NIM   : 222
+Nama  : Ila
+Kelas : 2
+IPK   : 3,2
+------------------------------
+Masukkan Data Mahasiswa ke-3
+NIM   : 333
+Nama  : Lia
+Kelas : 2
+IPK   : 3,3
+------------------------------
+Masukkan Data Mahasiswa ke-4
+NIM   : 444
+Nama  : Susi
+Kelas : 2
+IPK   : 3,5
+------------------------------
+Masukkan Data Mahasiswa ke-5
+NIM   : 555
+Nama  : Anita
+Kelas : 2
+IPK   : 3,7
+------------------------------
+Nama: Adi
+NIM: 111
+Kelas: 2
+IPK: 3.1
+--------------------------------
+Nama: Ila
+NIM: 222
+Kelas: 2
+IPK: 3.2
+--------------------------------
+Nama: Lia
+NIM: 333
+Kelas: 2
+IPK: 3.3
+--------------------------------
+Nama: Susi
+NIM: 444
+Kelas: 2
+IPK: 3.5
+--------------------------------
+Nama: Anita
+NIM: 555
+Kelas: 2
+IPK: 3.7
+--------------------------------
+------------------------------
+Pencarian data
+------------------------------
+Masukkan ipk yang di cari
+IPK: 3,7
+------------------------------
+Menggunakan Binary Search
+------------------------------
+Data mahasiswa IPK :3.7ditemukan pada indeks 4
+nim      : 555
+nama     : Anita
+kelas    : 2
+ipk      : 3.7 ```
+
+## Pertanyaan Percobaan 2
+
+1. Proses divide terjadi pada baris: mid = (left + right) /2
+
+2. Proses conquer terjadi pada pemanggilan rekursif: ```  return findBinarySearch(cari, left, mid-1);``` dan ```return findBinarySearch(cari, mid+1, right);``
+
+3. left : Batas indeks kiri (awal) dari bagian array yang sedang diperiksa 
+right : Batas indeks kanan (akhir) dari bagian array yang sedang diperiksa 
+mid :Indeks tengah, dihitung dari (left+right)/2, digunakan sebagai titik pembanding
+
+4. Program tetap bisa berjalan (tidak error), namun hasilnya tidak dapat diandalkan. Binary search mengasumsikan data sudah terurut ascending. 
+Jika data tidak urut, proses pembagian array menjadi kacau dan pencarian bisa mengembalikan hasil salah (data tidak ditemukan padahal ada, atau ditemukan di indeks yang keliru).
+
+5. Hasilnya tidak sesuai / tidak ditemukan, karena kode saat ini mengasumsikan data urut ascending, jika di benarkan maka akan menjadi seperti ini
+
+```  return findBinarySearch(cari, mid+1, right); ``` dan ``` return findBinarySearch(cari, left, mid-1); ```
+
+6. Ketika kondisi right >= left sudah tidak terpenuhi (artinya right < left), berarti seluruh bagian array sudah diperiksa tanpa menemukan kecocokan. 
+Pada titik ini fungsi mengembalikan nilai -1 sebagai tanda bahwa data tidak ada dalam array.
+
+7. 
+
+           
