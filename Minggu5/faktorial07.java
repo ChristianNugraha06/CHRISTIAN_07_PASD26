@@ -6,9 +6,11 @@ public class faktorial07 {
 
      int faktorialIBF(int n) {
         int fakto =1;
+        int i =1;
         
-        for (int i = 1; i <=n; i++) {
+        while (i<=1) {
             fakto = fakto*i;
+            i++;
         }
         return fakto;
     } 
