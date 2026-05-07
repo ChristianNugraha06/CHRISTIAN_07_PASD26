@@ -79,11 +79,11 @@ public int jumlahTugas() {
 }
 
 public String konversiDesimalKeBiner(int nilai){
-    StackKonversi stack = new StackKonversi();
+    StackKonversi07 stack = new StackKonversi07();
     while (nilai > 0) {
-        int sisa = nilai %2;
+        int sisa = nilai % 2;
         stack.push(sisa);
-        nilai=nilai/2;
+        nilai = nilai/2;
         
     }
     String biner = new String();
