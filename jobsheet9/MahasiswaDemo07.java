@@ -54,14 +54,17 @@ public class MahasiswaDemo07 {
                     System.out.println("Nama\tNIM\tKelas");
                     stack.print();
                     break;
-                default:
-                    System.out.println("Pilihan tidak falid");
                 case 5 :
                     Mahasiswa07 bawah = stack.lihatTugasTerbawah();
                     if (bawah != null) {
                     System.out.println("Tugas pertama dikumpulkan oleh " + bawah.nama);
                     }
-                break;
+                    break;
+                case 6 :
+                    System.out.println("Jumlah tugas yang sudah terkumpul: " + stack.jumlahTugas());
+                    break;
+                 default:
+                    System.out.println("Pilihan tidak falid");
                 
             }
 
