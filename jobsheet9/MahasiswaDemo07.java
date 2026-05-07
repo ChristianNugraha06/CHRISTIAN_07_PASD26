@@ -8,6 +8,7 @@ public class MahasiswaDemo07 {
     public static void main(String[] args) {
         StackTugasMahasiswa07 stack = new StackTugasMahasiswa07(5);
         Scanner Scan = new Scanner(System.in);
+            int Pilih;
 
         do {
             System.out.println("\n menu: ");
@@ -16,42 +17,36 @@ public class MahasiswaDemo07 {
             System.out.println("3. Melihat tugas teratas");
             System.out.println("4. Melihat daftar Tugas");
             System.out.print("Pilih :");
-
+            Pilih=Scan.nextInt();
             Scan.nextLine();
 
             switch (Pilih) {
                 case 1 :
                     System.out.print("Nama:");
                     String Nama = Scan.nextLine();
-                    System.out.println("NIM: ");
+                    System.out.print("NIM: ");
                     String NIM = Scan.nextLine();
-                    System.out.println("Kelas: ");
+                    System.out.print("Kelas: ");
                     String Kelas = Scan.nextLine();
-
                     Mahasiswa07 mhs = new Mahasiswa07(Nama, NIM, Kelas);
                     stack.push(mhs);
                     System.out.printf("Tugas %s berhasil dikumpulkan \n", mhs.nama);
-                    
                     break;
             
                 case 2 :
                     Mahasiswa07 dinilai = stack.pop();
                     if (dinilai !=null) {
-
                         System.out.println("Menilai tugas dari " + dinilai.nama);
                         System.out.print("Masukkan nilai (0-100): ");
                         int nilai = Scan.nextInt();
                         dinilai.tugasDinilai(nilai);
                         System.out.printf("Nilai tugas %s adalah %d\n", dinilai.nama, nilai);
-                        
                     }
                     break;
                 case 3 :
                     Mahasiswa07 lihat = stack.peek();
                     if (lihat!=null) {
                         System.out.println("Tugas terakhir dikumpulkan oleh: " + lihat.nama);
-
-                        
                     }
                     break;
                 case 4:
@@ -61,11 +56,17 @@ public class MahasiswaDemo07 {
                     break;
                 default:
                     System.out.println("Pilihan tidak falid");
+                case 5 :
+                    Mahasiswa07 bawah = stack.lihatTugasTerbawah();
+                    if (bawah != null) {
+                    System.out.println("Tugas pertama dikumpulkan oleh " + bawah.nama);
+                    }
+                break;
                 
             }
 
-        } while (Pilih >= 1 && Pilih<=4) {
+        } while (Pilih >= 1 && Pilih<=5); 
             
-        }
+        
     }
 }
