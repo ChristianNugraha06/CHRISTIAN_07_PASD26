@@ -100,6 +100,261 @@ Bimon           23212201        2B    3,8 ```
 
 2. memutus koneksi ke node yang dihapus. Kemudian if (temp.next == null) tail = temp memperbarui tail jika node yang dihapus adalah node terakhir.
 
-# Latihan 
+# Hasil Tugas
+``` =========================================
+  SISTEM ANTRIAN UNIT KEMAHASISWAAN
+=========================================
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 1
+
+=== Pendaftaran Antrian ===
+Masukkan NIM   : 124
+Masukkan Nama  : Okta
+Masukkan Kelas : 1F
+Masukkan IPK   : 3,60
+Mahasiswa Okta berhasil ditambahkan ke antrian 
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 1
+
+=== Pendaftaran Antrian ===
+Masukkan NIM   : 125
+Masukkan Nama  : Arya
+Masukkan Kelas : 1F
+Masukkan IPK   : 3,59
+Mahasiswa Arya berhasil ditambahkan ke antrian 
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 1
+
+=== Pendaftaran Antrian ===
+Masukkan NIM   : 125
+Masukkan Nama  : Andra
+Masukkan Kelas : 1F
+Masukkan IPK   : 3,50
+Mahasiswa Andra berhasil ditambahkan ke antrian 
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 3
+
+
+========== Daftar Antrian ==========
+Antrian ke-1:
+Okta            124             1F    3,6
+Antrian ke-2:
+Arya            125             1F    3,6
+Antrian ke-3:
+Andra           125             1F    3,5
+=====================================
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 4
+
+
+--- Antrian Terdepan ---
+Okta            124             1F    3,6
+------------------------
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 5
+
+
+--- Antrian Paling Akhir ---
+Andra           125             1F    3,5
+----------------------------
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 5
+
+
+--- Antrian Paling Akhir ---
+Andra           125             1F    3,5
+----------------------------
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 6
+
+Jumlah mahasiswa yang masih mengantri: 3 orang
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 7
+
+Status: Antrian TIDAK kosong.
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 2
+
+
+=== Mahasiswa Dipanggil ===
+Okta            124             1F    3,6
+===========================
+
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 9
+
+Antrian telah dikosongkan
+
+-----------------------------------------
+  MENU ANTRIAN LAYANAN KEMAHASISWAAN
+-----------------------------------------
+  1. Daftar Antrian (Tambah Antrian)
+  2. Panggil Antrian (Dequeue)
+  3. Tampilkan Semua Antrian
+  4. Tampilkan Antrian Terdepan
+  5. Tampilkan Antrian Paling Akhir
+  6. Tampilkan Jumlah Antrian
+  7. Cek Antrian Kosong
+  8. Cek Antrian Penuh
+  9. Kosongkan Antrian
+  0. Keluar
+-----------------------------------------
+Pilih menu: 0
+
+Terima kasih. program selesai ```
+
 
  
